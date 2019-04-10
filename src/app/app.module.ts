@@ -3,14 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
+import { ProductsComponent } from './products/products.component';
+import {MatIconModule} from '@angular/material/icon';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatIconModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

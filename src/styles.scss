@@ -1,1 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
+
+  
+  @import '~@angular/material/prebuilt-themes/pink-bluegrey.css';
+  @import '~@angular/material/theming';
+  
+  $custom-typography: mat-typography-config(
+    $headline: mat-typography-level(32px, 48px, 700),
+    $body-1: mat-typography-level(16px, 24px, 500)
+  );
+
+  @include angular-material-typography($custom-typography);
+  
+  @include mat-core();
+  
+  // Define the palettes for your theme using the Material Design palettes available in palette.scss
+  // (imported above). For each palette, you can optionally specify a default, lighter, and darker
+  // hue. Available color palettes: https://material.io/design/color/
+  $domzo-app-primary: mat-palette($mat-deep-orange, A400);
+//    #ff3d00
+  $domzo-app-accent: mat-palette($mat-blue-gray, 900);
+//   #263238
+  // The warn palette is optional (defaults to red).
+  $domzo-app-warn: mat-palette($mat-deep-orange, 500);
+  
+  // Create the theme object (a Sass map containing all of the palettes).
+  $domzo-app-theme: mat-light-theme($domzo-app-primary, $domzo-app-accent, $domzo-app-warn);
+  
+  
+  // Include the alternative theme styles inside of a block with a CSS class. You can make this
+  // CSS class whatever you want. In this example, any component inside of an element with
+  // `.unicorn-dark-theme` will be affected by this alternate dark theme instead of the default theme.
+  @include angular-material-theme($domzo-app-theme);
+  
+  
+// MATTERIAL END
+
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Fontil Sans';
+  // background: #fffdfd;
+  // background-color: #e4eaea !important;
+}

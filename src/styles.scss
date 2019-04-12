@@ -46,27 +46,37 @@ body {
 }
 
 // CSS STRTS HERE
+.mat-toolbar{
+  background: #fff;
+  color: #607d8b;
 
-.hamburger-icon {
+.MenuIcon {
   padding: 0 ;
-  margin-right: 15px;
 }
-.favourite-icon {
+.AppHeaderRightIcon{
   padding: 0;
 
 } 
-.example-spacer {
+.AppHeaderTitle{
+  width: 100%;
+  text-align: center;
+}
+.AppHeaderSpacer {
   flex: 1 1 auto;
 }
+}
+
 
 
 // HOME SERACH
 
 .HomeSearch
+// INHERIT FROM HomeComponent.css
 {
 .mat-form-field-appearance-outline .mat-form-field-infix{
-  padding: 8px 0;
+  padding: 0px 0;
   border:none;
+  line-height: 25px;
   margin-bottom: 0px;
 }
 
@@ -85,11 +95,20 @@ body {
  .mat-form-field-label-wrapper {
   top: 0;
   padding-top: 0;
+
+}
+input{
+  margin: auto;
+  height: 25px;;
 }
 .mat-form-field-appearance-outline .mat-form-field-prefix{
   margin: auto 0;
   top: 0;
-  padding-right: 4px;
+  padding-right: 8px;
+  margin-right: 10px;
+  border-right: #9197a3 2px solid;
+  color: #9197a3;
+  height: 22px;
 }
 .mat-form-field-appearance-outline .mat-form-field-wrapper{
   padding-bottom: 0;

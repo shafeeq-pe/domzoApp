@@ -44,3 +44,55 @@ body {
   // background: #fffdfd;
   // background-color: #e4eaea !important;
 }
+
+// CSS STRTS HERE
+
+.hamburger-icon {
+  padding: 0 ;
+  margin-right: 15px;
+}
+.favourite-icon {
+  padding: 0;
+
+} 
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+
+// HOME SERACH
+
+.HomeSearch
+{
+.mat-form-field-appearance-outline .mat-form-field-infix{
+  padding: 8px 0;
+  border:none;
+  margin-bottom: 0px;
+}
+
+
+
+ .mat-form-field-outline-end {
+  border: none !important;
+  min-width: 5px;
+}
+
+ .mat-form-field-outline-start {
+  border: none !important;
+  min-width: 5px;
+}
+
+ .mat-form-field-label-wrapper {
+  top: 0;
+  padding-top: 0;
+}
+.mat-form-field-appearance-outline .mat-form-field-prefix{
+  margin: auto 0;
+  top: 0;
+  padding-right: 4px;
+}
+.mat-form-field-appearance-outline .mat-form-field-wrapper{
+  padding-bottom: 0;
+}
+}
+

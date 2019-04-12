@@ -1,10 +1,22 @@
-<mat-toolbar color="accent">
+<mat-toolbar>
 
 
   <mat-toolbar-row>
-    <span>Third Line</span>
+      <mat-icon class="hamburger-icon" aria-hidden="false" aria-label="Example heart icon">sort</mat-icon>
+    <span>Home</span>
+ 
     <span class="example-spacer"></span>
-    <mat-icon class="example-icon" aria-hidden="false" aria-label="Example heart icon">favorite</mat-icon>
-    <mat-icon class="example-icon" aria-hidden="false" aria-label="Example delete icon">delete</mat-icon>
+    <mat-icon class="favourite-icon" aria-hidden="false" aria-label="Example heart icon">favorite_border</mat-icon>
+
   </mat-toolbar-row>
 </mat-toolbar>
+<div class="HomePageConntents">
+  <div class="HomeSearch">
+<mat-form-field appearance="outline">
+    <!-- <mat-label>Search</mat-label> -->
+    <input matInput placeholder="Placeholder">
+    <mat-icon matPrefix>search</mat-icon>
+  </mat-form-field>
+</div>
+
+</div>

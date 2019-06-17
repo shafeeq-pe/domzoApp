@@ -3,7 +3,7 @@
   
   @import '~@angular/material/prebuilt-themes/pink-bluegrey.css';
   @import '~@angular/material/theming';
-  
+  @import 'https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap';
   $custom-typography: mat-typography-config(
     $headline: mat-typography-level(32px, 48px, 700),
     $body-1: mat-typography-level(16px, 24px, 500)
@@ -40,7 +40,8 @@ html,
 body {
   height: 100%;
   margin: 0;
-  font-family: 'Fontil Sans';
+  // font-family: 'Fontil Sans';
+  font-family: 'Nunito Sans', sans-serif;
   // background: #fffdfd;
   // background-color: #e4eaea !important;
 }
